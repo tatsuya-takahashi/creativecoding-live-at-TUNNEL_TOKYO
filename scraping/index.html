@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+        }
+
+        span {
+            font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+        }
+
+        span.name {
+            color: white;
+            font-size: 24px;
+            z-index: 3;
+            position: absolute;
+            top: 20px;
+            left: 10px;
+        }
+
+        span.qr {
+            position: absolute;
+            z-index: 3;
+            top: 80px;
+            left: 10px;
+        }
+
+        span.camera {
+            position: absolute;
+            z-index: 3;
+            top: 280px;
+            left: 10px;
+        }
+
+        span.ok {
+            position: absolute;
+            z-index: 3;
+            color: white;
+            top: 380px;
+            left: 35px;
+            font-size: 30px;
+            font-weight: 100;
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+            background: url(http://weblifetimes.com/wp-content/uploads/2016/08/28_2.jpg) no-repeat;
+            background-size: cover;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .gradation {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(108, 184, 255, 08), rgba(255, 246, 108, .8), rgba(255, 163, 108, .8));
+            background-size: 600% 600%;
+            animation: AnimationName 10s ease infinite;
+            position: absolute;
+            z-index: 2;
+        }
+
+        @keyframes AnimationName {
+            0% {
+                background-position: 0% 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0% 50%
+            }
+        }
+    </style>
+    <!--[if lt IE 9]>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <link rel="shortcut icon" href="">
+</head>
+
+<body>
+    <div class="img"></div>
+    <div class="gradation"></div>
+    <span class="name">DJ IWASHI</span>
+    <span class="qr">
+        <a href='http://www.unitag.io/qrcode'>
+            <img src='http://www.unitag.io/qreator/generate?crs=e2ZRfLkGhCcNX0uPU0VF3psv%252Bf3Ob5SH7gn%252BI7vD1ScFtLnmBa7IedK8uUREEatiH6vdUOU6Z69yiDf4U6Gf6KN7MLO9VWBF%252FFmXZgwV8C7HQyYOkFvwyqzsu8AVVphHfA3lGyf2NEoiFB5Ry%252BWvtBT%252FwEBll7bUQL7FFfFCiv8YD6Z1VFYb5BjZcPs6SiKSuPY8UvQtgjgPhJRvNvisVrkfBNJGvOddj1ehl9tDqv%252ByMEa0YRtIEalghVrUrRczA5zvsRabE%252FtBEq4uhth3X%252Fqlc9ZnlJYAFdhG%252BoSyieqC%252FjbHi7lObDoeughWnnPYg6w85pzfRAk3yPjdom3Ib4P2LHR0eo8WJ8CbJcr1h%252Fs%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ4nZsKu2IKw3nm3w6mg%252FSoTppgyrClpjUxgWJk2xRLdlSwWcU4lPoOXeE0YZ8qd9p3flLDEm7sTpnm4llyiyTes%253D'
+                alt='QR Code' width="200px" height="200px" />
+        </a>
+    </span>
+    <span class="camera">
+        <a>
+            <img src='https://cdn4.iconfinder.com/data/icons/social-media-2-7/66/97-512.png' alt='QR Code' width="100px"
+                height="100px" />
+        </a>
+    </span>
+    <span class="ok">OK</span>
+</body>
+
+</html>
